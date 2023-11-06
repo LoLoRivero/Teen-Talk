@@ -1,0 +1,132 @@
+ /* style.css */
+ body {
+     font-family: 'Arial', sans-serif;
+     line-height: 1.5;
+     margin: 0;
+     padding: 0;
+     background-color: #fff;
+     color: #333;
+ }
+
+ header {
+     background-color: #fff;
+     text-align: center;
+     padding: 1.5rem 0;
+     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+ }
+
+ header h1 {
+     color: #007acc;
+     margin-bottom: 1.5rem;
+     transition: background-color 0.3s;
+ }
+
+ nav ul {
+     padding: 0;
+     list-style-type: none;
+     font-size: 1.1rem;
+ }
+
+ nav ul li {
+     display: inline;
+     margin: 0 15px;
+ }
+
+ nav ul li a.active {
+     color: #a8dadc;
+     background-color: #022b3a;
+     padding: 5px 10px;
+     border-radius: 5px;
+     font-weight: bold;
+ }
+
+ nav ul li a:hover {
+     background-color: rgba(255, 255, 255, 0.2);
+     font-weight: bold;
+ }
+
+ .banner {
+     font-family: 'Pacifico', cursive;
+     background-color: #007acc;
+     color: #fff;
+     padding: 0.5rem 0;
+     text-align: center;
+     font-size: 1.5rem;
+ }
+
+ .introduction,
+ .features,
+ .testimonials,
+ .cta {
+     padding: 3rem 10%;
+     background-color: #f0f0f0;
+     margin: 20px 0;
+     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .highlight {
+     color: #007acc;
+     font-weight: bold;
+ }
+
+ .features ul {
+     list-style-type: none;
+     padding: 0;
+ }
+
+ .features ul li {
+     margin-bottom: 20px;
+     font-size: 1.2rem;
+     display: flex;
+     align-items: center;
+ }
+
+ .features ul li i {
+     color: #007acc;
+     margin-right: 10px;
+ }
+
+ .testimonials blockquote {
+     border-left: 4px solid #007acc;
+     padding-left: 20px;
+     font-style: italic;
+     margin-bottom: 1.5rem;
+ }
+
+ .cta button {
+     margin: 20px 10px;
+     padding: 12px 24px;
+     border: none;
+     background-color: #007acc;
+     color: #fff;
+     font-size: 1.2rem;
+     border-radius: 3px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+
+ .cta button:hover {
+     background-color: #005fa3;
+ }
+
+ footer {
+     background-color: #007acc;
+     color: #fff;
+     text-align: center;
+     padding: 1.5rem 0;
+ }
+
+ .footer-links a {
+     margin: 0 10px;
+     color: #fff;
+     text-decoration: none;
+     transition: color 0.3s;
+ }
+
+ .footer-links a:hover {
+     color: #e5e5e5;
+ }
+
+ .footer-contact p {
+     margin: 10px 0;
+ }
